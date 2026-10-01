@@ -1,0 +1,46 @@
+FitCore Pro — Final Edition
+
+/
+├── index.php                         Public landing page with live database KPIs + photo slideshow
+├── auth/
+│   ├── login.php                     Staff login
+│   └── logout.php
+├── member/
+│   ├── login.php                     Member self-service login
+│   ├── dashboard.php                 Member QR, progress, workout, diet, classes, attendance, payments
+│   ├── auth.php
+│   └── logout.php
+├── app/
+│   ├── dashboard.php                 Role-adaptive executive/trainer/accounting dashboard
+│   ├── members.php                   Member CRM + portal account creation
+│   ├── member_view.php               360° profile, renewal, discount, tax, freeze, metrics
+│   ├── attendance.php                QR/manual attendance
+│   ├── payments.php                  Payment ledger
+│   ├── payment_receipt.php           Printable receipt
+│   ├── trainers.php
+│   ├── workouts.php
+│   ├── diet_plans.php                Nutrition/macros/meals
+│   ├── classes.php
+│   ├── equipment.php                 Assets + maintenance history
+│   ├── expenses.php
+│   ├── analytics.php
+│   ├── branches.php                  Multi-branch comparison
+│   ├── notifications.php             Stored + live calculated alerts
+│   ├── search.php                    Global search
+│   ├── plans.php                     Membership plan management
+│   ├── audit_logs.php
+│   ├── settings.php                  Branding, currency and business rules
+│   ├── reports.php
+│   └── profile.php
+├── includes/                         Shared auth, UI and helper functions
+├── config/                           Application + database config
+├── assets/
+│   ├── css/style.css
+│   └── js/app.js
+└── database/
+    ├── fitcore.sql                   ONE-FILE fresh final installer
+    ├── upgrade_to_final.sql          Upgrade old FitCore DB without dropping data
+    ├── schema.sql                    Schema reference
+    └── seed.sql                      Demo-data reference
+
+Read FINAL_SETUP.md first.
